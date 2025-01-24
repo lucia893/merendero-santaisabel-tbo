@@ -26,6 +26,7 @@ header {
 .pInicio {
   font-family: "Quicksand", sans-serif;
   font-size: large;
+  margin-bottom: 2%;
 }
 
 .logo {
@@ -163,8 +164,9 @@ section {
 }
 
 .title {
-  font-family: "Popins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-bottom: 2%;
+  font-weight: 600;
 }
 .map-container {
   position: relative;
@@ -325,6 +327,17 @@ footer {
 
 .arrow:hover {
   color: #ccc;
+}
+
+/* Carousel Styles */
+#carouselExample {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.carousel-image {
+  height: 250px;
+  object-fit: cover;
 }
 
 /*FONTS*/
