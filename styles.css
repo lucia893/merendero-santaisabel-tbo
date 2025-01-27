@@ -133,7 +133,7 @@ section {
   text-decoration: none;
   text-align: center;
   margin-bottom: 3%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .btnC a {
@@ -279,6 +279,10 @@ footer {
 
 #ayuda {
   font-size: 120%;
+}
+
+#queresSumarte {
+  margin-bottom: 3%;
 }
 
 /*gallery styles*/
