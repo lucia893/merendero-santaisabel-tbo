@@ -17,6 +17,52 @@ body {
 }
 
 header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f7f7f7; /* Optional background color */
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  background-color: #90caf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.title-container {
+  text-align: left;
+  margin-right: 15px;
+}
+
+#firstTitle {
+  font-size: 2rem;
+  margin: 0;
+}
+
+#subtitle {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #555;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 20%;
+}
+
+header {
   font-family: "Comfortaa", sans-serif;
   margin-top: 20px;
   position: relative;
@@ -29,19 +75,10 @@ header {
   margin-bottom: 2%;
 }
 
-.logo {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  top: -30px;
-}
-
 nav ul {
   list-style: none;
-  background: #90caf9;
+  background: #c3e3fd;
   padding: 10px;
-  margin-top: -30px;
 }
 
 nav ul li {
