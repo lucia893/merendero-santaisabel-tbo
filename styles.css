@@ -271,6 +271,7 @@ section {
 .castoresFoto img {
   max-width: 60%;
   width: 80%;
+  border-radius: 50%;
   height: auto;
 }
 
@@ -282,6 +283,7 @@ section {
 .northlandsFoto img {
   max-width: 60%;
   width: 80%;
+  border-radius: 50%;
   height: auto;
 }
 
